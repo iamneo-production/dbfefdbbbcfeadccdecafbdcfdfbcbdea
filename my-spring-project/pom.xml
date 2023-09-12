@@ -15,20 +15,19 @@
     
     <dependencies>
         <!-- Spring Framework Core -->
-        <dependency>
+        <!-- Spring Framework Core -->
+ <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-context</artifactId>
-    <version>6.0.11</version>
+    <version>4.3.30.RELEASE</version>
 </dependency>
-
-        
-        <!-- Spring Test (for testing) -->
-        <dependency>
+<dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-test</artifactId>
-        <version>6.0.11</version> <!-- Use the same version as Spring Framework Core -->
+        <version>4.3.30.RELEASE</version>
         <scope>test</scope>
     </dependency>
+
         
         <!-- JUnit (for testing) -->
         <dependency>
