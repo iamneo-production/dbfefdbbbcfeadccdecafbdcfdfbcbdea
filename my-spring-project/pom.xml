@@ -24,11 +24,11 @@
         
         <!-- Spring Test (for testing) -->
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <version>4.3.30.RELEASE</version>
-            <scope>test</scope>
-        </dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-test</artifactId>
+        <version>6.0.11</version> <!-- Use the same version as Spring Framework Core -->
+        <scope>test</scope>
+    </dependency>
         
         <!-- JUnit (for testing) -->
         <dependency>
